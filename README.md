@@ -46,27 +46,27 @@ java -jar WSUtil-1.0-beta.jar --service-name=get --output-path=path_a_fichero_sa
 
 ### Base64
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=base64 --input_path=path_a_fichero_entrada --output_path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=base64 --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Registrar formulario
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=registrarFormulario --input_path=path_a_fichero_entrada --output_path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=registrarFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Solicitar informe
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=solicitarInforme --input-path=path_a_fichero_entrada --output_path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=solicitarInforme --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Subir formulario
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=subirDocumentoFormulario --input-path=path_a_fichero_entrada --output_path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=subirDocumentoFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Validar formulario
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=validar --input-path=path_a_fichero_entrada --output_path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=validar --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ## Errores con WSUtil
