@@ -41,7 +41,7 @@ Si las rutas hacia los ficheros contienen espacio debemos rodear los nombres ent
 
 ### GET
 ```
-java -jar WSUtil-1.0-beta.jar --service-name=get --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0-beta.jar --service-name=get --get-codigo-perito=codigo_perito --get-expediente=expediente --get-informweb=informeweb --output-path=path_a_fichero_salida
 ```
 
 ### Base64
