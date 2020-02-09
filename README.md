@@ -49,6 +49,11 @@ java -jar WSUtil-1.0.jar --service-name=get --get-codigo-perito=codigo_perito --
 java -jar WSUtil-1.0.jar --service-name=base64 --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
+### Base64 (decodificar)
+```
+java -jar WSUtil-1.0.jar --service-name=base64decode --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+```
+
 ### Registrar formulario
 ```
 java -jar WSUtil-1.0.jar --service-name=registrarFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
