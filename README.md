@@ -51,7 +51,7 @@ java -jar WSUtil-1.0.jar --service-name=base64 --input-path=path_a_fichero_entra
 
 ### Base64 (decodificar)
 ```
-java -jar WSUtil-1.0.jar --service-name=base64decode --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.jar --service-name=base64decoder --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Registrar formulario
