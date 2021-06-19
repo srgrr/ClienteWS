@@ -1,4 +1,4 @@
-# WSUtil 1.0
+# WSUtil 1.0.1
 Este repositorio contiene el programa Java necesario para poder interactuar con el WebService del consorcio. Para mayor comodidad, de ahora en adelante nos referiremos a este programa como WSUtil.
 
 ## Pasos previos
@@ -41,37 +41,37 @@ Si las rutas hacia los ficheros contienen espacio debemos rodear los nombres ent
 
 ### GET
 ```
-java -jar WSUtil-1.0.jar --service-name=get --get-codigo-perito=codigo_perito --get-expediente=expediente --get-informweb=informeweb --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=get --get-codigo-perito=codigo_perito --get-expediente=expediente --get-informweb=informeweb --output-path=path_a_fichero_salida
 ```
 
 ### Base64
 ```
-java -jar WSUtil-1.0.jar --service-name=base64 --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=base64 --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Base64 (decodificar)
 ```
-java -jar WSUtil-1.0.jar --service-name=base64decode --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=base64decode --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Registrar formulario
 ```
-java -jar WSUtil-1.0.jar --service-name=registrarFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=registrarFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Solicitar informe
 ```
-java -jar WSUtil-1.0.jar --service-name=solicitarInforme --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=solicitarInforme --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Subir formulario
 ```
-java -jar WSUtil-1.0.jar --service-name=subirDocumentoFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=subirDocumentoFormulario --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ### Validar formulario
 ```
-java -jar WSUtil-1.0.jar --service-name=validar --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
+java -jar WSUtil-1.0.1.jar --service-name=validar --input-path=path_a_fichero_entrada --output-path=path_a_fichero_salida
 ```
 
 ## Errores con WSUtil
